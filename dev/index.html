@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>&lt;my-element> Demo</title>
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="../node_modules/lit/polyfill-support.js"></script>
+    <script src="../templates/my-page.js" type="module"></script>
+    <script type="module" src="../components/component-heading.js"></script>
+    <script type="module" src="../components/component-image.js"></script>
+    <script type="module" src="../components/my-element.js"></script>
+    <script type="module" src="../components/simple-greeting.js"></script>
+    <style>
+      p {
+        border: solid 1px blue;
+        padding: 8px;
+      }
+      body {
+        --primary-color: hsl(195, 72%, 65%);
+        --secondary-color: hsl(102, 81%, 73%);
+        --tertiary-color: hsl(283, 80%, 80%);
+
+        --on-primary-color: hsl(0, 0%, 18%);
+      }
+    </style>
+  </head>
+  <body>
+    <my-page>
+
+    </my-page>
+    
+  </body>
+</html>
